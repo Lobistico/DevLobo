@@ -1,4 +1,3 @@
-from datetime import date
 import matplotlib
 import xml.etree.ElementTree as xeET
 import requests
@@ -72,6 +71,7 @@ if show_grafico in opcoes_sim:
     grafico = df.groupby(df['Estacao'])['Temperatura'].sum().plot.barh(title='Temperatura', color='red',
                                                                        figsize=(20, 5))
     matplotlib.pyplot.show()
-df_styled = df.style.background_gradient()
 
-dfi.export(df_styled,"{temperatura}.jpg")
+# SALVANDO UMA IMAGEM
+df_styled = df.style.background_gradient()
+dfi.export(df_styled, "../paginas/static/paginas/img/registro.jpg")
