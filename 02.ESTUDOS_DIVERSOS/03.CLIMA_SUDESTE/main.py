@@ -74,4 +74,4 @@ if show_grafico in opcoes_sim:
     matplotlib.pyplot.show()
 df_styled = df.style.background_gradient()
 
-dfi.export(df_styled,"{temperatura}.jpeg")
+dfi.export(df_styled,"{temperatura}.jpg")
