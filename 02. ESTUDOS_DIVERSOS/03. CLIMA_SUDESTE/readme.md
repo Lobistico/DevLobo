@@ -18,8 +18,8 @@ Foram utilizadas as seguintes bibliotecas:
     import dataframe_image as dfi
 
 #### Diretório 'Atualização'
-Execute o arquivo 'main.py' para atualizar as informações.
-Precisa do CSV? Execute o "arquivo_csv.py".
+    Execute o arquivo 'main.py' para atualizar as informações.
+    Precisa do CSV? Execute o "arquivo_csv.py".
 
 #### Visualização
-Utilizando o Django, use o comando "python manage.py runserver"
+    Utilizando o Django, use o comando "python manage.py runserver"
