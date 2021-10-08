@@ -1,3 +1,4 @@
+from datetime import date
 import matplotlib
 import xml.etree.ElementTree as xeET
 import requests
@@ -72,4 +73,5 @@ if show_grafico in opcoes_sim:
                                                                        figsize=(20, 5))
     matplotlib.pyplot.show()
 df_styled = df.style.background_gradient()
-dfi.export(df_styled,"mytable.png")
+
+dfi.export(df_styled,"{temperatura}.png")
