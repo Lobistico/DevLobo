@@ -11,4 +11,6 @@ df.to_csv(sep=',', index=False, path_or_buf='dad.csv')
 dff = pd.read_csv(filepath_or_buffer=r"dad.csv",
                   sep=',')
 # dff = dff['atualizacao'] = pd.to_datetime(dff['atualizacao'])
-print(dff)
+#print(dff)
+
+# print(dff.nlargest(3, "temperatura"))

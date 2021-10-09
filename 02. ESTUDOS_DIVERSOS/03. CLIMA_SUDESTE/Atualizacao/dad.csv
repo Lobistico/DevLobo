@@ -199,3 +199,23 @@ id,codigo,atualizacao,temperatura,ar_umido,a_tempo
 198,Rio de Janeiro,08/10/2021 18:00:00,21,75,PredomÃ­nio de Sol
 199,São Paulo,08/10/2021 18:00:00,16,86,PredomÃ­nio de Sol
 200,Vitória,08/10/2021 18:00:00,22,70,PredomÃ­nio de Sol
+201,Belo Horizonte,08/10/2021 20:00:00,20,83,PredomÃ­nio de Sol
+202,Rio de Janeiro,08/10/2021 20:00:00,21,69,PredomÃ­nio de Sol
+203,São Paulo,08/10/2021 20:00:00,15,94,PredomÃ­nio de Sol
+204,Vitória,08/10/2021 20:00:00,21,78,PredomÃ­nio de Sol
+205,Belo Horizonte,08/10/2021 20:00:00,20,83,PredomÃ­nio de Sol
+206,Rio de Janeiro,08/10/2021 20:00:00,21,69,PredomÃ­nio de Sol
+207,São Paulo,08/10/2021 20:00:00,15,94,PredomÃ­nio de Sol
+208,Vitória,08/10/2021 20:00:00,21,78,PredomÃ­nio de Sol
+209,Belo Horizonte,08/10/2021 21:00:00,20,81,PredomÃ­nio de Sol
+210,Rio de Janeiro,08/10/2021 21:00:00,21,70,PredomÃ­nio de Sol
+211,São Paulo,08/10/2021 21:00:00,16,86,PredomÃ­nio de Sol
+212,Vitória,08/10/2021 21:00:00,21,75,PredomÃ­nio de Sol
+213,Belo Horizonte,08/10/2021 21:00:00,20,81,PredomÃ­nio de Sol
+214,Rio de Janeiro,08/10/2021 21:00:00,21,70,PredomÃ­nio de Sol
+215,São Paulo,08/10/2021 21:00:00,16,86,PredomÃ­nio de Sol
+216,Vitória,08/10/2021 21:00:00,21,75,PredomÃ­nio de Sol
+217,Belo Horizonte,08/10/2021 21:00:00,20,81,Sol Predominante
+218,Rio de Janeiro,08/10/2021 21:00:00,21,70,Sol Predominante
+219,São Paulo,08/10/2021 21:00:00,16,86,Sol Predominante
+220,Vitória,08/10/2021 21:00:00,21,75,Sol Predominante
