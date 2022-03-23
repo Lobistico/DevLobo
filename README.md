@@ -1,3 +1,3 @@
-STUDY PROJECTS DEVELOPED
+Projetos de Desenvolvimento
 
 AUTOR: Eduardo "Lobistico" Rodrigues
