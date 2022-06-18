@@ -1,0 +1,68 @@
+body {
+    background: black;
+    font-family: "Times New Roman", Arial, serif;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#div_head {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title1 {
+    font-size: 3em;
+    color: black;
+    display: block;
+    background-color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 3em;
+    color: black;
+    display: block;
+    background-color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: black;
+    color: gold;
+    border-color: gold;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+/* ANIMAÇÃO DO TEXTO */
+
+li {
+    float: left;
+    animation-duration: 1s;
+    animation-name: slidein;
+    color: black;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    font-size: 2em;
+    background: goldenrod;
+    list-style: none;
+    margin: 1%;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+    }
+    to {
+        width: 200px;
+        height: 200px;
+    }
+}

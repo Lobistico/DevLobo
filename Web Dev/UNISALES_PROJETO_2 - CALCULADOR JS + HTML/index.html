@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora em JS</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <img src="img/perdemo_v2.jpg" id="img" />
+    </div>
+    <form id="form">
+        <div>
+            <p id="texto" > Não precisa se preocupar! <br> Eu irei te ajudar</p>
+            <div class="calc">
+                <input type="text" id="n1" placeholder="Digite o Valor 1" class="title2" /><br>
+                <input type="text" id="n2" placeholder="Digite o Valor 2" class="title2" /><br>
+
+                <input type="button" class="btn" value="+" onClick="calc(this)" autofocus="autofocus" />
+                <input type="button" class="btn" value="-" onClick="calc(this)" />
+                <input type="button" class="btn" value="*" onClick="calc(this)" />
+                <input type="button" class="btn" value="/" onClick="calc(this)" />
+                <input type="button" class="btn" value="C" onClick="limpar()" />
+
+            </div>
+        </div>
+    </form>
+  
+
+</body>
+
+</html>

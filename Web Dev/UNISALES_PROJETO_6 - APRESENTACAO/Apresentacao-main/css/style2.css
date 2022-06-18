@@ -1,0 +1,167 @@
+/* BODY DO HTML - NÃO MEXE NESSA MISÉRIA */
+
+body {
+    background: gold;
+    font-family: "Times New Roman", Arial, serif;
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+/* RODAPÉ - NÃO MEXER NISSO */
+
+.rodixd {
+    color: red;
+    text-align: right;
+    background: green;
+}
+
+#rodapeid {
+    position: fixed;
+    color: #ffdf00;
+    background: black;
+    padding: 10px;
+    bottom: 0;
+    right: 25%;
+    left: 25%;
+    text-align: center;
+}
+
+
+/* FLEX BOX - NÃO MEXE NISSO*/
+
+.flex-container {
+    display: inline-flex;
+    background-color: black;
+    width: auto;
+}
+
+.text_div {
+    background-color: #ffdf00;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 60px;
+    width: auto;
+    text-align: center;
+}
+
+.text_div:hover {
+    cursor: pointer;
+    background-color: #0a0a0a;
+    color: white;
+    transition: .2s;
+}
+
+.text_div:hover a {
+    position: relative;
+    top: -10px;
+    color: white;
+    transition: ease .32s;
+}
+
+a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+
+/* .text_div a:link,
+.text_div a:visited {
+    color: white;
+    background: black;
+    color: black;
+    padding: 1% 1%;
+    text-decoration: none;
+} */
+
+
+/* .text_div a:hover {
+    text-decoration: line-through;
+    color: white;
+    background: black;
+} */
+
+
+/* CABEÇALHO DO HTML - NÃO MEXE NESSA MISÉRIA */
+
+#cabecalho {
+    /*background: #060606*/
+    font-size: 1.3em;
+    color: #ffdf00;
+    border: 2px red;
+    padding: 20px 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    font-size: x-large;
+}
+
+
+/* RODAPÉ DO GITHUB - NÃO MEXE NESSA MISÉRIA - #PLS*/
+
+.classe {
+    text-align: center;
+    color: red;
+    font-size: 1em;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 100%;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    /*background-color: black;*/
+    color: black;
+    font-size: 16px;
+    padding: 1%;
+    text-align: center;
+}
+
+
+/* .text a:link,
+.text a:visited {
+    color: white;
+    background: black;
+    color: black;
+    padding: 7% 7%;
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: line-through;
+    color: white;
+    background: black;
+} */

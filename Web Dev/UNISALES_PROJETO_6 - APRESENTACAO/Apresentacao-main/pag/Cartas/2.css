@@ -1,0 +1,55 @@
+body {
+    background-image: url(../../img/matrix.gif);
+    font-family: "Times New Roman", Arial, serif;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#div_head {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title1 {
+    font-size: 4em;
+    color: black;
+    display: block;
+    background-color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 4em;
+    color: black;
+    display: block;
+    background-color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* ANIMAÇÃO DO TEXTO */
+
+p {
+    float: left;
+    animation-duration: 3s;
+    animation-name: slidein;
+    color: black;
+    font-size: 3em;
+    list-style: none;
+    background-color: black;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+    }
+    to {
+        width: 200px;
+        height: 200px;
+    }
+}

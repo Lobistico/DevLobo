@@ -1,0 +1,55 @@
+body{
+	background: black /*#4B0082*/ scroll   ;
+	font: 16px Arial, "Times New Roman", sans-serif;
+	margin: 100px;
+}
+
+#PRIDX {
+	width: 100%;
+	border: 2px;
+	text-align: center;
+	
+}
+#menidx{
+	background: orange;
+	text-decoration: none;
+	padding: 25px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bolder;
+	display: inline-block;
+	
+	}
+.class{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	color:black;
+}
+
+.conidx{
+	color:white;
+	text-align:center;
+
+}
+
+.rodixd{
+	color: red;
+	text-align: right;
+	background: green;
+	
+}
+#rodapeid{
+	color:black;
+	background:orange;
+	padding:10px;
+}
+.patinha{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}

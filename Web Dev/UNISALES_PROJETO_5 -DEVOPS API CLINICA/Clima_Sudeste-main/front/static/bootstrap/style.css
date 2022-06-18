@@ -1,0 +1,75 @@
+body{
+	background: #B2EBF2/*#4B0082*/ scroll   ;
+	font: 16px Arial, "Times New Roman", sans-serif;
+	margin: 100px;
+}
+
+#PRIDX {
+	width: 100%;
+	border: 2px;
+	text-align: center;
+
+}
+
+#menidx{
+	background: #81D4FA;
+	text-decoration: none;
+	padding: 25px;
+	text-align: center;
+	font-size: 1em;
+	display: inline-block;
+	color: black;
+
+	}
+.title{
+    background: #1A237E;
+	text-decoration: none;
+	padding: 25px;
+	text-align: center;
+	font-size: 6em;
+	font-weight: bolder;
+	display: block;
+	color: #BBDEFB;
+	border-radius: 100px;
+}
+.class{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	color:black;
+}
+
+.conidx{
+	color:black;
+	text-align:center;
+	background: #BBDEFB ;
+	border-radius: 100px;
+
+}
+
+.rodixd{
+	color: red;
+	text-align: right;
+	background: green;
+
+}
+#rodapeid{
+	color:black;
+	background:orange;
+	padding:10px;
+}
+.patinha{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+.patinha2{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+

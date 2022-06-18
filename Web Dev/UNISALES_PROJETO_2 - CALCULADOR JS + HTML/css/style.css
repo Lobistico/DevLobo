@@ -1,0 +1,64 @@
+body {
+    background: black;
+    font-family: "Times New Roman", Arial, serif;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    right: 5%;
+    left: 5%;
+    font-size: 1em;
+}
+
+#img{
+    display: inline-block;
+}
+
+#texto {
+    text-align: center;
+    right: 0%;
+    left: 0%;
+    font-size:2em;
+    margin: 10px;
+}
+
+#form {
+    background: #F7D917;
+   
+
+}
+
+.calc {
+    margin: 10px;
+
+    background: black;
+    
+    font-display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title2 {
+    font-size: 2em;
+    margin: auto;
+    
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    display: block;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: black;
+    color: #F7D917;
+    
+    margin: 0.1em;
+    padding: 0.5em;
+    font-size: 2em;
+
+}

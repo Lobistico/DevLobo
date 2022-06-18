@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IMPORTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- TÍTULO -->
+    <title>RPG - RISE OF SHADOWS</title>
+</head>
+
+<body>
+    <div class="conteiner black">
+        <label>Selecione a raça do seu personagem</label>
+        <select class="browser-default yellow" id="raca" onChange="atualizouRaca()">
+            <option value="Humano" onclick="Selection">Humano</option>
+            <option value="Vampiro" disabled> Vampiro - (DEV NÃO GOSTA)</option>
+            <option value="Lobisomem" onclick="Selection">Lobisomem</option>
+            <option value="Morto-Vivo" disabled>Morto-Vivo</option>
+            <option value="Espiritual">Espiritual</option>
+            <option value="Cósmico" disabled>Cósmico</option>
+        </select>
+        <label>Selecione a Orientação Sexual</label>
+        <select class="browser-default yellow" id="orientacao" onChange="atualizouOrientacao()">
+            <option value="Heterossexual">Heterossexual</option>
+            <option value="Homossexual"> Homossexual</option>
+            <option value="Bissexual">Bissexual</option>
+            <option value="Assexual">Assexual</option>
+            <option value="Pansexual">Pansexual</option>
+        </select>
+        <label>Selecione o seu Gênero</label>
+        <select class="browser-default yellow" id="genero" onChange="atualizouGenero()">
+            <option value="Cisgênero">Cisgênero</option>
+            <option value="Cisgênero">Cisgênero</option>
+            <option value="Não-binário">Não-binário</option>
+        </select>
+
+
+
+
+        <button class="btn pink darken" input type="submit" value="Submit" onclick="salvar()">Salvando</button>
+        <script src="script.js"></script>
+
+
+        <p style="color: white"><strong> LEIA COM ATENÇÃO A PASSIVA DA SUA RAÇA</strong> </p>
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn grey darken-3 modal-trigger" href="#demo-modal1">Passiva Humano</a>
+        <!-- Modal Structure -->
+
+        <div id="demo-modal1" class="modal">
+            <div class="modal-content">
+                <h4>A passiva do Humano é:</h4>
+                <h2><strong>Seleção Natural</strong></h2>
+                <p> Todo mundo sabe que foi a sua culpa o que aconteceu, foi por sua causa que "Ele" surgiu no mundo,
+                    agora é tarde para chorar ou arrepender-se dos crimes cometidos,
+                    mas não tema, "Ele" ainda está aqui contigo, e nunca te abandonou, apesar de você ser um humano
+                    fraco e covarde, seu dom "Seleção Natural" facilita a sua adaptação em
+                    ambientes hostis, caso sobreviva tempo demais nessa região, mas não abuse da sorte... Você é o
+                    alvo..
+                    <strong>Humanos não conseguem criar alianças sem passar na "Provação d'Ele". </strong>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-red btn black lighten-1">Fechar</a>
+            </div>
+        </div>
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn grey darken-3 modal-trigger" href="#demo-modal2">Passiva Lobisomem</a>
+        <!-- Modal Structure -->
+
+        <div id="demo-modal2" class="modal">
+            <div class="modal-content">
+                <h4>A passiva do Lobisomem é:</h4>
+                <h2><strong>Escuridão Eterna</strong></h2>
+                <p> Você não teve culpa quando tudo aconteceu, todo mundo entendeu que a pessoa que você amava trocou
+                    você por um cara mais velho e feliz, mas isso
+                    não era motivos para você ofertar seu corpo e alma para a "Ele", infelizmente agora, você é um
+                    licantropo e por tal motivo, conforme a noite cai
+                    e a hora da transformação se aproxima, você recebe bônus em velocidade de ataque e dano até retornar
+                    a sua forma humana ao amanhecer.
+
+                    <strong>Lobisomens não recebem bônus de descanso. </strong>
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-red btn black lighten-1">Fechar</a>
+            </div>
+        </div>
+
+        <!-- START DO MODAL -->
+
+        <script>
+            $(document).ready(function () {
+                $('.modal').modal();
+            })
+        </script>
+
+        <script>
+            
+        </script>
+
+</body>
+
+</html>

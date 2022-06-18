@@ -1,0 +1,28 @@
+{%extends 'base.html'%}
+{% load static %}
+{%block conteudo%}
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- CORPO -->
+<div id="PRIDX">
+    <h1 class="title">TEMPERATURAS</h1>
+    <div class="clear"></div>
+    </div>
+    <!-- INÍCIO DO CONTEÚDO -->
+		<div class="conidx">
+            <h1><center>TEMPERATURA REGISTRADAS NO SUDESTE</center></h1>
+            <p>Abaixo está uma tabela demonstrando as temperaturas registradas no Sudeste Brasileiro</p>
+            <img src="{%  static 'img/registro.jpg' %}" style="width:40%; height: 30%; border-radius: 1%;">
+            <p>Abaixo está um gráfico com as mesmas informações da tabela para facilitar a visualização</p>
+            <img src="{%  static 'img/gráfico.jpg' %}" style="width:100%; height: auto;border-radius: 5%">
+            <br>
+        </div>
+<p class="rodidx" align="center">
+    <strong>Elaborado por Eduardo Rodrigues, Eric Dourado, Julia Andrade, Renato Pinheiro, Paulo Henrique <BR> <s> </s></strong>
+</p>
+
+<div class="patinha">
+			<a href="https://github.com/Lobistico"><img src="{%  static 'img/th2.png' %}" width="100px" height="35%"></a>
+</div>
+{%endblock%}
+

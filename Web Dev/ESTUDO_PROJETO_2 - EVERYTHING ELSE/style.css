@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;}
+
+/* HEADER */
+body{
+	background:  black;
+	font-size: 1em;
+	font-family:"Times New Roman", Arial, serif;
+	width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #060606;
+ }
+
+/* INÍCIO CÓDIGO CABEÇALHO*/
+#cabeçalho{
+	background: #060606;
+	font-size: 1.3em;
+	font-color: red;
+	border: 2px red;
+	padding: 20px 10px;
+	text-align: center;
+	width: auto;
+}
+#apresentação{
+	background: #060606;
+	color:white;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	width: 650px;
+	
+}
+#apresentação2{
+	background: #060606;
+	color:white;
+	text-align: center;
+	padding: 10px;
+	width: 150px;
+	float: right;
+	display: fixed;
+	margin: 5px;
+
+}
+
+/*FORMATAÇÃO LINKS */
+#cabeçalho a:link, #cabeçalho a:visited{
+	color:white;
+	background: black;
+	padding: 21px 10px;
+	text-decoration: none;
+}
+#cabeçalho a:hover{
+	/*text-decoration: line-through;*/
+	color:black;
+	background: white;
+}
+
+/*FORMATAÇÃO POSTAGEM*/
+h2{
+	font-size: 2em;
+	font-style: bold;
+	/*!--text-decoration:line-through;!-->*/
+	padding-bottom: 10px;
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
+/*rodape*/
+.chat{
+	position: fixed;
+	bottom: 0px;
+	right:0px;
+}
+.clear{
+	clear: both;
+}
