@@ -1,3 +1,4 @@
-Projetos de Desenvolvimento
+># Dev_Lobo
+Neste repósito estão alguns projetos desenvolvidos durante os meus estudos sobre tecnologias, bem como, ideias que foram adiante ou descartados em algum momento.
 
-AUTOR: Eduardo "Lobistico" Rodrigues
+"Too hard, too hurt, too changed. If you're not too much of something then you're not enough you."
